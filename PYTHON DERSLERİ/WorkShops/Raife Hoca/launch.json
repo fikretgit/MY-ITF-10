@@ -1,0 +1,12 @@
+a1 = ["arp", "live", "strong"]
+a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
+res= []
+j = 
+for i in a1:
+    res = set(i)
+    if j in a2:
+        res2 = set(j)
+    elif i == j:
+        print(res)
+    else:
+        print(a2)
